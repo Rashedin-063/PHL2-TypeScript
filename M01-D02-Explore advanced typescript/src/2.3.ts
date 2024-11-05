@@ -52,9 +52,17 @@
 
   const couple: GenericTuple<string, string> = ['Mr. X', 'Mrs. X']
 
+  interface User {
+    name: string;
+    email: string
+  }
+  
+  // type newUser = [number, {
+  //   name: string;
+  //   email: string;
+  // }]
 
-
-  const userWithId: GenericTuple<number, { name: string;  email: string}> = [1234, {
+  const userWithId: GenericTuple<number, User> = [1234, {
     name: 'hello',
     email: 'h@gmail.com'
   }]
