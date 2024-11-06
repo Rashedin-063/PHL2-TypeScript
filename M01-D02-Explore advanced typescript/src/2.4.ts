@@ -3,7 +3,7 @@
 
   // generic interface
 
-  interface Developer<T, X> {
+  interface Developer<T, X=null> {
     name: string;
     computer: {
       brand: string;
@@ -25,7 +25,7 @@
   }
 
 
-  const newDeveloper: Developer<DevWatch, null> = {
+  const newDeveloper: Developer<DevWatch> = {
     name: 'Rashedin',
     computer: {
       brand: 'hp',
