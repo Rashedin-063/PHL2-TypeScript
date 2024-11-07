@@ -20,9 +20,6 @@
   const cat = new Animal('Pet', 'cat', 'meaw meaw')
   console.log(cat.makeSound());
 
-  
-  
-  
 
   //
 }
