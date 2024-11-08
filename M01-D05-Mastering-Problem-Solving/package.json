@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn src/problems/problem_4.ts",
+    "dev": "ts-node-dev --respawn src/problems/problem_8.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
